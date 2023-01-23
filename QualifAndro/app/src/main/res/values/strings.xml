@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QualifAndro</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="loginText">Log in</string>
+    <string name="fill_in_your_profile_for_efficient_job_applications">Fill in your profile for efficient job applications</string>
+    <string name="sign_up">Sign up</string>
+    <string name="job_street">JoB Street</string>
+    <string name="user_name">Username</string>
+    <string name="by_signing_up_i_have_read_and_agreed_to_jobstreet_terms_of_use_and_privacy_policy">By signing up, I have read and agreed to JoBStreet Terms of Use and Privacy Policy</string>
+    <string name="email_address_hint">Email Address</string>
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="must_fill_all_fields">All fields must be filled</string>
+    <string name="account_created_message">Your account has been created !</string>
+    <string name="email_used">Email is already used</string>
+    <string name="password_not_match">Password does not match</string>
+    <string name="phone_used">Phone number is already used</string>
+    <string name="cred_not_found">Credential not found</string>
+    <string name="recommended_jobs">Recommended Jobs</string>
+    <string name="job_detail">Job Detail</string>
+    <string name="job_description">Job Description</string>z
+</resources>

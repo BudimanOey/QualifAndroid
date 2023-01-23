@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JobDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/job_detail_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/job_detail"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:paddingVertical="10dp"
+            android:background="@color/blue"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imvJob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="150dp"
+                android:minWidth="150dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/ic_baseline_work_outline_24"
+                />
+
+            <TextView
+                android:id="@+id/tvJobName"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                />
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingHorizontal="50dp">
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/tvCompany"
+                    android:layout_width="wrap_content"
+                    android:text="company"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"/>
+
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_location_on_24"
+                        />
+
+                    <TextView
+                        android:id="@+id/tvAddress"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:text="address"
+                        android:textSize="15dp"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/job_description"
+                    android:textSize="22dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    />
+
+                <ScrollView
+                    android:layout_marginVertical="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvJob_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lorem impsum"
+                        />
+
+                </ScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
